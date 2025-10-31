@@ -20,7 +20,7 @@
 
 <Collapsible.Root class="w-full space-y-3 pl-3">
     <Collapsible.Trigger
-        class="w-full h-10 rounded-md bg-earth-300 text-foreground shadow-btn inline-flex items-center justify-center transition-all active:scale-[0.98]"
+        class="w-full md:w-[calc(100%-30px)] h-10 rounded-md bg-earth-300 text-foreground shadow-btn inline-flex items-center justify-center transition-all active:scale-[0.98] drop-shadow-sm"
         aria-label="Show Lectures"
     >
         <div class="flex items-center justify-between px-5 w-full">
@@ -35,17 +35,25 @@
     >
         {#each dataObj as [key, value]}
             {#if value[0] === "link"}
-                <a href="/" class="flex">
-                    <button class="rounded-9px w-full items-center p-3 bg-earth-400 rounded-sm hover:bg-earth-500 transition cursor-pointer flex gap-3 font-bold">
+                <a href="{value[3]}" class="flex" target="_blank">
+                    <button class="rounded-9px w-full md:w-[calc(100%-40px)] items-center p-3 drop-shadow-sm rounded-sm bg-earth-300 hover:bg-earth-500 transition cursor-pointer flex gap-3 font-bold">
                         <!-- <a href="/" class="text-blue-600 hover:text-blue-800 underline">{value[1]}</a> -->
                         {#if value[2] === "docx"}
-                            <MicrosoftWordLogo class="size-5" />
+                            <div class="p-1 bg-[#2a5599] rounded-sm">
+                                <MicrosoftWordLogo class="size-5" color="#cedaf2" />
+                            </div>
                         {:else if value[2] === "pdf"}
-                            <FilePdf class="size-5" />
+                            <div class="p-1 bg-[#de534e] rounded-sm">
+                                <FilePdf class="size-5" color="#edf9f5" />
+                            </div>
                         {:else if value[2] === "ppt"}
-                            <MicrosoftPowerpointLogo class="size-5" />
+                            <div class="p-1 bg-[#d34827] rounded-sm">
+                                <MicrosoftPowerpointLogo class="size-5" color="#edf9f5" />
+                            </div>
                         {:else if value[2] === "yt"}
-                            <YoutubeLogo class="size-5" />
+                            <div class="px-1 py-px bg-[#ff0033] rounded-sm">
+                                <YoutubeLogo class="size-5" color="#edf9f5" />
+                            </div>
                         {/if}
                         <p class="w-full text-left">{value[1]}</p>
                         
