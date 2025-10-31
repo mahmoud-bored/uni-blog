@@ -25,7 +25,7 @@
     </div>
 
     <div>
-        <div class="pt-6 flex justify-center items-center">
+        <div class="pt-6 flex justify-center items-center pb-12">
             <Tabs.Root
                 value="anatomy"
                 class="rounded-card border-muted bg-background-alt shadow-card w-11/12 max-w-[1000px] min-h-[650px] border p-3 bg-earth-200 rounded-md max-h-[90vh]"
