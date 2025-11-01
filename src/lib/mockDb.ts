@@ -4,7 +4,7 @@ export interface DataGroup {
         [key: number]: [
             "link" | "header", 
             string, 
-            "pdf" | "ppt" | "docx" | "yt" | null, 
+            "pdf" | "pdf_extra" | "ppt" | "docx" | "yt" | null, 
             string | null
         ];
     };
@@ -146,8 +146,11 @@ db.set('physiology', {
         title: "MCQ",
         data: {
             0: ["link", "MCQ GIT.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/Ee_SCBJcwKFNvWgUR4YcMUYB15yOrpuV_hokSFf0bBkUAQ?e=z1PFuF"],
-            1: ["link", "MCQ kidney.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EWyYOvyzPwNAgB5v-Sp66wABC6-qDquy433iPXyRMDuqww?e=vOrYXY"],
-            2: ["link", "MCQs Metabolism.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EXI2izqsrTVBknPyOgkbfw0Bi_Wz-OB2_cPuq9Euc2BHJQ?e=ub3AdP"],
+            1: ["link", "MCQ GIT [NO_ANSWERS].pdf", "pdf_extra", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EcltslkYauBMqUbcGQMjSXkBuxFVxmUy3juLDPxxOEoKQg?e=c4dzs5"],
+            2: ["link", "MCQ kidney.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EWyYOvyzPwNAgB5v-Sp66wABC6-qDquy433iPXyRMDuqww?e=vOrYXY"],
+            3: ["link", "MCQ kidney [NO_ANSWERS].pdf", "pdf_extra", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EfWnAc1d8XtCqcYaWbJzZfwBtTENfo7ikZKxyzJhfY-jKA?e=z9CT3f"],
+            4: ["link", "MCQs Metabolism.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EXI2izqsrTVBknPyOgkbfw0Bi_Wz-OB2_cPuq9Euc2BHJQ?e=ub3AdP"],
+            5: ["link", "MCQs Metabolism [NO_ANSWERS].pdf", "pdf_extra", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/ES6iZZvgW_xOrewWFJTgI3QB7BpeGVi4HmElaPtKEhnVWg?e=d5FENp"],
         }
     },
     4: {
@@ -239,12 +242,16 @@ db.set('histology', {
         title: "Revision questions",
         data: {
             0: ["link", "1-URINARY Question bank -LMS", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EfaZopyuCcRBs5-SX-60yA4BXzlg_F1q5zVRBpTuM33U8A?e=faQw3x"],
-            1: ["link", "Digestive tract Question bank - Part I", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EaziCZFiTplMsSbrGnujyAsBNxDZuAJmAxIjMJNECUBzTg?e=M22XFm"],
-            2: ["link", "4- SAQs-Urinary System.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EV6SyN9Fh8RFpePD4kuEbvgBEgaIITPBdyPXoRNRS0QVTw?e=dX3fNs"],
-            3: ["link", "5-Digestive tract Question bank - [Short Questions].pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/ERGeu2M5f41FvRjvoy8gMZMB8viVJUSp_4a37WC2AU5CwQ?e=icJwgQ"],
-            4: ["link", "6-Digestive tract Question bank - Part II.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EZmEZe9aYtBMsXXDlOrpGG4BFMQZ0bdaUe3tEBAXKXPD8w?e=VCnAvW"],
-            5: ["link", "10- UPDATED Digestive glands Short Qs.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EVV62pCUhX5Pgu1n9HG-QnYBE7SxTJQ5KUF1NTg7hyg2jg?e=t3tUQe"],
-            6: ["link", "11-Digestive glands LMS MCQ.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EZgCI2EEINBFqtGD6MtN9awBm40-HVp9TRS7ceAagncpzQ?e=dynz28"],
+            1: ["link", "1-URINARY Question bank -LMS [NO_ANSWERS]", "pdf_extra", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/Ecy4KzKx5FJJpBMkA1ihaXgBMTLT-Os8MMUAYpEG7-iSow?e=E2YN7m"],
+            2: ["link", "Digestive tract Question bank - Part I", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EaziCZFiTplMsSbrGnujyAsBNxDZuAJmAxIjMJNECUBzTg?e=M22XFm"],
+            3: ["link", "Digestive tract Question bank - Part I [NO_ANSWERS]", "pdf_extra", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/Ef0QLuHvMRdBnqCADJTRGGUB45a6dex1_4p5M5C-3v9xLw?e=yoBxrd"],
+            4: ["link", "4- SAQs-Urinary System.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EV6SyN9Fh8RFpePD4kuEbvgBEgaIITPBdyPXoRNRS0QVTw?e=dX3fNs"],
+            5: ["link", "5-Digestive tract Question bank - [Short Questions].pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/ERGeu2M5f41FvRjvoy8gMZMB8viVJUSp_4a37WC2AU5CwQ?e=icJwgQ"],
+            6: ["link", "6-Digestive tract Question bank - Part II.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EZmEZe9aYtBMsXXDlOrpGG4BFMQZ0bdaUe3tEBAXKXPD8w?e=VCnAvW"],
+            7: ["link", "6-Digestive tract Question bank - Part II [NO_ANSWERS].pdf", "pdf_extra", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/ETVSZCSoKp1ErLxcDkr6V_QBiVnX2TESn3DvXSqtKN8X2Q?e=vkLxWc"],
+            8: ["link", "10- UPDATED Digestive glands Short Qs.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EVV62pCUhX5Pgu1n9HG-QnYBE7SxTJQ5KUF1NTg7hyg2jg?e=t3tUQe"],
+            9: ["link", "11-Digestive glands LMS MCQ.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EZgCI2EEINBFqtGD6MtN9awBm40-HVp9TRS7ceAagncpzQ?e=dynz28"],
+            10: ["link", "11-Digestive glands LMS MCQ [NO_ANSWERS].pdf", "pdf_extra", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EZFgcpB-4-tPrp2wZux5-fkBFGeh1-JEzpq62Kna7weSrQ?e=chuFf4"],
         }
     }
 })

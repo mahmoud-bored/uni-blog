@@ -6,7 +6,7 @@
     import FilePdf from "phosphor-svelte/lib/FilePdf";
     import MicrosoftPowerpointLogo from "phosphor-svelte/lib/MicrosoftPowerpointLogo";
     import YoutubeLogo from "phosphor-svelte/lib/YoutubeLogo";
-    
+    import crazyImg from "$lib/assets/personal-img.webp"
     
     let {
         dataSet,
@@ -36,7 +36,20 @@
         {#each dataObj as [key, value]}
             {#if value[0] === "link"}
                 <a href="{value[3]}" class="flex" target="_blank">
-                    <button class="rounded-9px w-full md:w-[calc(100%-40px)] items-center p-3 drop-shadow-sm rounded-sm bg-earth-300 hover:bg-earth-500 transition cursor-pointer flex gap-3 font-bold">
+                    <button 
+                        class={[
+                            "relative rounded-9px w-full md:w-[calc(100%-40px)] items-center p-3 drop-shadow-sm rounded-sm transition cursor-pointer flex gap-3 font-bold",
+                            value[2] === "pdf_extra" ? "bg-[#6220f9]" : "bg-earth-300",
+                            value[2] === "pdf_extra" ? "text-earth-100" : "",
+                            value[2] === "pdf_extra" ? "hover:bg-[#4715ba]" : "hover:bg-earth-500",
+                            value[2] === "pdf_extra" ? "mt-2" : ""
+                        ]}
+                    >
+                        {#if value[2] === "pdf_extra"}
+                            <div class="absolute -top-3 left-2 flex justify-center items-center bg-[#4715ba] rounded-full px-2 font-sans text-sm">
+                                extra
+                            </div>
+                        {/if}
                         <!-- <a href="/" class="text-blue-600 hover:text-blue-800 underline">{value[1]}</a> -->
                         {#if value[2] === "docx"}
                             <div class="p-1 bg-[#2a5599] rounded-sm">
@@ -54,6 +67,8 @@
                             <div class="px-1 py-px bg-[#ff0033] rounded-sm">
                                 <YoutubeLogo class="size-5" color="#edf9f5" />
                             </div>
+                        {:else if value[2] === "pdf_extra"}
+                            <img class="w-8 rounded-sm" src="{crazyImg}" alt="Meh.">
                         {/if}
                         <p class="w-full text-left">{value[1]}</p>
                         
