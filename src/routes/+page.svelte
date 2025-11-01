@@ -3,7 +3,8 @@
 	import CollapsibleList from "./CollapsibleList.svelte";
 	import { db, type DbData } from "$lib/mockDb";
     import { type DataGroup } from "$lib/mockDb";
-    
+    import personalImg from "$lib/assets/personal-img-2.webp"
+
     let tabsHeaderElmnt: HTMLDivElement | null = $state(null)
     let tabsHeaderHeight = $state(0)
     $effect(() => {
@@ -22,6 +23,10 @@
     <div class="flex justify-center items-center flex-col w-full p-4">
         <p class="text-2xl text-center font-bold text-earth-800">Introducing: 3$ LMS alternative!</p>
         <p class="text-center text-lg text-earth-700 mt-1">a solution that <span class="font-bold bg-earth-800 text-navy-50 py-px px-2 rounded-sm drop-shadow-sm">Doesn't Shutdown</span> right before an exam!</p>
+        <p class="text-center text-sm text-earth-700 mt-1 flex items-center gap-2">
+            brought to you by: <span class="font-bold">Mahmoud Elwan</span>
+            <img class="w-5 h-5 rounded-full" src="{personalImg}" alt="Meh!">
+        </p>
     </div>
 
     <div>
