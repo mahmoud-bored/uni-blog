@@ -54,6 +54,7 @@ db.set('anatomy', {
             33: ["link", "4- Development of Midgut.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EZK4QGsb26NHmam_hwZhnEUBq1extodivi041I6D19JQsQ?e=eLdBVT"],
             34: ["link", "5- Development of Hindgut.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EbsZVC6YaolJup8DXm6hgawBtQuJDzde04tqTfFoKjkLyA?e=mbukSa"],
             35: ["header", "W7", null, null],
+            36: ["link", "Anomalies of kidney Ureter Suprarenal gland.ppt", "ppt", "https://badyauni-my.sharepoint.com/:p:/g/personal/m_mohamed2400718_badyauni_edu_eg/EanF-VIrcZRAsvUYoEGyuP4BXDy5uOc80I1cWfCVnGJz3g?e=af3cRg"],
         }
     },
     1: {
@@ -90,6 +91,8 @@ db.set('anatomy', {
             11: ["link", "12- Spleen.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/ET7edY8dXuZJqkToNFxnf6QBC_ZqgdvU3X4B5nmbtsZwFA?e=xOabpe"],
             12: ["link", "13- Posterior Abdominal Wall.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/ESPAp4QyL1hLhCFaylTXx84BX8dHXtgaiASrSU8607o5eQ?e=CPrjQV"],
             13: ["link", "14- Development of For, Mid and Hindgut.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/ERh-7qxuw1lJrtCy1ZG0ZDIBNpMv9lgemMZhz4ZTfOvDeA?e=4GmK6I"],
+            14: ["link", "15- Anomalies of Kidney and Ureter.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EarQm363a_5Nlmln2ZfVaYsBtBhiASNG-E77xCGBmStPqQ?e=i9NLrz"],
+            15: ["link", "16- Suprarenal Gland.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EaXATCkofwJIuVoAMdltGlgB_ya3c39UyK08zKwBPMp6-A?e=KC2Fd4"]
         }
     },
     3: {
@@ -169,6 +172,13 @@ db.set('physiology', {
             3: ["link", "4-Renal-plasma-clearance-Enas.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EQNrtSgR7JRAj6KK-lGx5p8BpAaVo2t1fWrfwr6PWIevMw?e=upo6HR"],
             4: ["link", "5-Kidney cases-Enas-1.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EapLSPjUT8pChoI73ykg3WoBig55MRDqOX_DKoRTo26yCg?e=dSvVxU"],
             5: ["link", "6-Metabolism-Enas.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EbLePpu9fwlMuPFptAih49YByF1LjwSSguaV0BiYWUU5DQ?e=cH3HxG"],
+        }
+    },
+    6: {
+        title: "Revision for written exam (SAQ)",
+        data: {
+            0: ["link", "Revision GIT Metabolism.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/ERVNHsW8wJ9EhyfT19XxVDMBzIl6FLm4TYu4IRtI-uD6ng?e=a9LjT2"],
+            1: ["link", "Revision Kidney.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EUnKi9JarEBMpiwSd0x_RAEBmjuqn8ZgjhPbVKWQPIn1ZA?e=MsTxfz"],
         }
     }
 })
