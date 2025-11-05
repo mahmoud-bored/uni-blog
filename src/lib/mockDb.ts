@@ -66,12 +66,15 @@ db.set('anatomy', {
             3: ["link", "4- Stomach, intestine.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/Ed5BBRtBHjtNu1Nix71bk0gBENERRAol9mEM6hVdr5fS8g?e=KA7DZX"],
             4: ["link", "5- Liver, Spleen practical.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EZHeatfMzmBOvbH1I084jnMB6VP7A0J4bgSspfuiBdD_kw?e=dgbt8e"],
             5: ["link", "6- Post. abdominal wall [Muscles, Vessels, nerves] Kidney.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EUByUywJtFBEpbYKoy12lrgB0M01eRJKbV7f7NqARtfArg?e=5hCak0"],
-            6: ["link", "checklist for section 1 [anterior Abdominal Wall].docx", "docx", "https://badyauni-my.sharepoint.com/:w:/g/personal/m_mohamed2400718_badyauni_edu_eg/ETtlRuQ4nHNDm20kxSPp3DwBg5JsvNP7MILsa3uw77hEhw?e=BYhZB4"],
-            7: ["link", "checklist for section 2 [Male Genital System].docx", "docx", "https://badyauni-my.sharepoint.com/:w:/g/personal/m_mohamed2400718_badyauni_edu_eg/EX1DpuO2sgpKkSwA6KIx2OkBnMMnYv3ctHs80e6yhCTkTQ?e=byoh64"],
-            8: ["link", "checklist for section 3 [Abdominal Cavity].docx", "docx", "https://badyauni-my.sharepoint.com/:w:/g/personal/m_mohamed2400718_badyauni_edu_eg/ERzFpUUP6J1Hks6bp56PV_sB-puavmaUNoN9cXLSYj2umQ?e=pa0yHJ"],
-            9: ["link", "checklist for section 4 [Stomach, Small Large intestine].docx", "docx", "https://badyauni-my.sharepoint.com/:w:/g/personal/m_mohamed2400718_badyauni_edu_eg/EbKjLqRexzZLtt9fNe_bBC8BWhMJXwCWlDRQoLWUxSrvsg?e=7Hcp66"],
-            10: ["link", "checklist for section 5 [Liver, Spleen].docx", "docx", "https://badyauni-my.sharepoint.com/:w:/g/personal/m_mohamed2400718_badyauni_edu_eg/Ed5858Vv6Y9DvPIVRleExMsB5oKiZLYZVcqNB7_E62anVA?e=4ke97O"],
-            11: ["link", "checklist for section 6 [posterior abdominal wall muscles, vessels, nerves, Kidney ureter.docx", "docx", "https://badyauni-my.sharepoint.com/:w:/g/personal/m_mohamed2400718_badyauni_edu_eg/EVsoQKtA5h1Eh01MRQ2eoCcBwkjDDoLjICv30W666txDRg?e=NZ8yoW"],
+            6: ["link", "7- Final Anatomy Checklist GIT (206).pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/ETAngA2C_zpEnVAFjVfrAzwB-kZuU22mrbWo_2K1qHsoag?e=CZOxVL"],
+            7: ["link", "8- Cases Second Year-2026 (206).pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EZRBZ6wUfU9JthrADDvbex0B78aJjKjvdoJ3mMN577wd9g?e=s0kvtu"],
+            8: ["link", "9- Congenital anomalies Second Year (206) Final Revision 2025-2026.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EaephDSeU19Mp4TLebfHvrkBz-gxkFN7xVl8LMJ_jU73Hw?e=KORnQI"],
+            9: ["link", "checklist for section 1 [anterior Abdominal Wall].docx", "docx", "https://badyauni-my.sharepoint.com/:w:/g/personal/m_mohamed2400718_badyauni_edu_eg/ETtlRuQ4nHNDm20kxSPp3DwBg5JsvNP7MILsa3uw77hEhw?e=BYhZB4"],
+            10: ["link", "checklist for section 2 [Male Genital System].docx", "docx", "https://badyauni-my.sharepoint.com/:w:/g/personal/m_mohamed2400718_badyauni_edu_eg/EX1DpuO2sgpKkSwA6KIx2OkBnMMnYv3ctHs80e6yhCTkTQ?e=byoh64"],
+            11: ["link", "checklist for section 3 [Abdominal Cavity].docx", "docx", "https://badyauni-my.sharepoint.com/:w:/g/personal/m_mohamed2400718_badyauni_edu_eg/ERzFpUUP6J1Hks6bp56PV_sB-puavmaUNoN9cXLSYj2umQ?e=pa0yHJ"],
+            12: ["link", "checklist for section 4 [Stomach, Small Large intestine].docx", "docx", "https://badyauni-my.sharepoint.com/:w:/g/personal/m_mohamed2400718_badyauni_edu_eg/EbKjLqRexzZLtt9fNe_bBC8BWhMJXwCWlDRQoLWUxSrvsg?e=7Hcp66"],
+            13: ["link", "checklist for section 5 [Liver, Spleen].docx", "docx", "https://badyauni-my.sharepoint.com/:w:/g/personal/m_mohamed2400718_badyauni_edu_eg/Ed5858Vv6Y9DvPIVRleExMsB5oKiZLYZVcqNB7_E62anVA?e=4ke97O"],
+            14: ["link", "checklist for section 6 [posterior abdominal wall muscles, vessels, nerves, Kidney ureter.docx", "docx", "https://badyauni-my.sharepoint.com/:w:/g/personal/m_mohamed2400718_badyauni_edu_eg/EVsoQKtA5h1Eh01MRQ2eoCcBwkjDDoLjICv30W666txDRg?e=NZ8yoW"],
         }
     },
     2: {
@@ -180,6 +183,12 @@ db.set('physiology', {
             0: ["link", "Revision GIT Metabolism.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/ERVNHsW8wJ9EhyfT19XxVDMBzIl6FLm4TYu4IRtI-uD6ng?e=a9LjT2"],
             1: ["link", "Revision Kidney.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EUnKi9JarEBMpiwSd0x_RAEBmjuqn8ZgjhPbVKWQPIn1ZA?e=MsTxfz"],
         }
+    },
+    7: {
+        title: "Revision Practical",
+        data: {
+            0: ["link", "Practical Final Revision.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EcyamHSl3RlEgjyVgf92dY8Bo4XY_Votj62nJcc9hIzUqA?e=pFoUNY"],
+        }
     }
 })
 db.set("biochemistry", {
@@ -246,6 +255,7 @@ db.set('histology', {
             4: ["link", "5- Urinary System-Lab 2-Renal tubules+JGA+Urinary passages.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EfkQSrE9KsVNvZ9zA3fbmykB6QY_Q5ZiDp1Nj3CJRjiigg?e=QRO4Bu"],
             5: ["link", "6- Digestive Tract Lab 4 (Small & Large Intestine)", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EWrSbBH5hWxBmuX5z_gDyzkB_ijawE7hcMVDh1KvWTyUsA?e=MMcvIy"],
             6: ["link", "7- Updated -Digestive glands practical.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EZKbd3cVrStBlrUh3ET52ycB-sEtsRNCWT6eqqpXSwzYwQ?e=WTKgOZ"],
+            7: ["link", "1- Collective OSPE Histology DIG 206.pdf", "pdf", "https://badyauni-my.sharepoint.com/:b:/g/personal/m_mohamed2400718_badyauni_edu_eg/EZW_CMKO3_BLkj7CmahfMQ4BwS87_I4vzg2IAWSnFmYvIQ?e=WXHDwB"],
         }
     },
     2: {
