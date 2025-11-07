@@ -283,6 +283,7 @@ db.set("radiology", {
             1: ["link", "radiology lecture 2", "ppt", "https://badyauni-my.sharepoint.com/:p:/g/personal/m_mohamed2400718_badyauni_edu_eg/EYrpJMkCENNAtvAJXrMTTygBHua9Rn_QCLk7KF7yUPG_rQ?e=WSNM4M"],
             2: ["link", "radiology 3", "ppt", "https://badyauni-my.sharepoint.com/:p:/g/personal/m_mohamed2400718_badyauni_edu_eg/ESVTWlvHamNFtKaWMRv5B0UBmqGbsFfejRTfK4LbyTz69g?e=koYYuv"],
             3: ["link", "radiology lecture 4", "ppt", "https://badyauni-my.sharepoint.com/:p:/g/personal/m_mohamed2400718_badyauni_edu_eg/EQSsswv7kgdDpa35WwKjhMIBatPcmDJTcvOh8utE1FWALw?e=lhIl6Q"],
+            4: ["link", "Radiology 5", "ppt", "https://badyauni-my.sharepoint.com/:p:/g/personal/m_mohamed2400718_badyauni_edu_eg/Ee018gvCrLVPvQ9owOgsI7kB3o62-dKqArJHizDNXFkfqw?e=OdIjPJ"],
         }
     }
 })
@@ -350,6 +351,13 @@ db.set("epe", {
         }
     },
     8: {
+        title: "Final Revisions",
+        data: {
+            0: ["link", "Revision 1", "ppt", "https://badyauni-my.sharepoint.com/:p:/g/personal/m_mohamed2400718_badyauni_edu_eg/ESj_eysvuzlDmrBMyo44Sm8BGH2cZyPQAcIoACvWbzOj3A?e=sudSK8"],
+            1: ["link", "Revision 2", "ppt", "https://badyauni-my.sharepoint.com/:p:/g/personal/m_mohamed2400718_badyauni_edu_eg/EePnkjI_Ip5BijW7VkN866EB8D2OLS4-TFupPBTFRd4ZxQ?e=XEA3hG"],
+        }
+    },
+    9: {
         title: "Clinical Skills Materials",
         data: {
             0: ["header", "History Taking", null, null],
